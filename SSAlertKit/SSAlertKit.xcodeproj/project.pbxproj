@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4F0584925402B070010AFAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F0584825402B070010AFAC /* AppDelegate.m */; };
+		D4F0584C25402B070010AFAC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F0584B25402B070010AFAC /* SceneDelegate.m */; };
+		D4F0584F25402B080010AFAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F0584E25402B080010AFAC /* ViewController.m */; };
+		D4F0585225402B080010AFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F0585025402B080010AFAC /* Main.storyboard */; };
+		D4F0585425402B090010AFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F0585325402B090010AFAC /* Assets.xcassets */; };
+		D4F0585725402B090010AFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F0585525402B090010AFAC /* LaunchScreen.storyboard */; };
+		D4F0585A25402B090010AFAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F0585925402B090010AFAC /* main.m */; };
+		D4F0587225402B480010AFAC /* SSAlertGlobalTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F0586125402B480010AFAC /* SSAlertGlobalTask.m */; };
+		D4F0587325402B480010AFAC /* SSAlertSpecialCareLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F0586525402B480010AFAC /* SSAlertSpecialCareLabel.m */; };
+		D4F0587425402B480010AFAC /* SSAlertHands.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F0586625402B480010AFAC /* SSAlertHands.m */; };
+		D4F0587525402B480010AFAC /* SSAlertLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F0586725402B480010AFAC /* SSAlertLabel.m */; };
+		D4F0587625402B480010AFAC /* SSAlertElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F0586A25402B480010AFAC /* SSAlertElement.m */; };
+		D4F0587725402B480010AFAC /* SSAlertContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F0586B25402B480010AFAC /* SSAlertContainerView.m */; };
+		D4F0587825402B480010AFAC /* SSAlertControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F0586F25402B480010AFAC /* SSAlertControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4F0584425402B070010AFAC /* SSAlertKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSAlertKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F0584725402B070010AFAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4F0584825402B070010AFAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4F0584A25402B070010AFAC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D4F0584B25402B070010AFAC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D4F0584D25402B070010AFAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4F0584E25402B080010AFAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4F0585125402B080010AFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4F0585325402B090010AFAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4F0585625402B090010AFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4F0585825402B090010AFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4F0585925402B090010AFAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4F0586125402B480010AFAC /* SSAlertGlobalTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlertGlobalTask.m; sourceTree = "<group>"; };
+		D4F0586225402B480010AFAC /* SSAlertMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlertMacros.h; sourceTree = "<group>"; };
+		D4F0586325402B480010AFAC /* SSAlertElementProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlertElementProtocol.h; sourceTree = "<group>"; };
+		D4F0586425402B480010AFAC /* SSAlertElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlertElement.h; sourceTree = "<group>"; };
+		D4F0586525402B480010AFAC /* SSAlertSpecialCareLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlertSpecialCareLabel.m; sourceTree = "<group>"; };
+		D4F0586625402B480010AFAC /* SSAlertHands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlertHands.m; sourceTree = "<group>"; };
+		D4F0586725402B480010AFAC /* SSAlertLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlertLabel.m; sourceTree = "<group>"; };
+		D4F0586825402B480010AFAC /* SSAlertControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlertControl.h; sourceTree = "<group>"; };
+		D4F0586925402B480010AFAC /* SSAlertHands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlertHands.h; sourceTree = "<group>"; };
+		D4F0586A25402B480010AFAC /* SSAlertElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlertElement.m; sourceTree = "<group>"; };
+		D4F0586B25402B480010AFAC /* SSAlertContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlertContainerView.m; sourceTree = "<group>"; };
+		D4F0586C25402B480010AFAC /* SSAlertContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlertContainerView.h; sourceTree = "<group>"; };
+		D4F0586D25402B480010AFAC /* SSAlertSpecialCareLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlertSpecialCareLabel.h; sourceTree = "<group>"; };
+		D4F0586E25402B480010AFAC /* SSAlertViewControlProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlertViewControlProtocol.h; sourceTree = "<group>"; };
+		D4F0586F25402B480010AFAC /* SSAlertControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlertControl.m; sourceTree = "<group>"; };
+		D4F0587025402B480010AFAC /* SSAlertGlobalTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlertGlobalTask.h; sourceTree = "<group>"; };
+		D4F0587125402B480010AFAC /* SSAlertLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlertLabel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4F0584125402B070010AFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4F0583B25402B070010AFAC = {
+			isa = PBXGroup;
+			children = (
+				D4F0584625402B070010AFAC /* SSAlertKit */,
+				D4F0584525402B070010AFAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4F0584525402B070010AFAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4F0584425402B070010AFAC /* SSAlertKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4F0584625402B070010AFAC /* SSAlertKit */ = {
+			isa = PBXGroup;
+			children = (
+				D4F0586C25402B480010AFAC /* SSAlertContainerView.h */,
+				D4F0586B25402B480010AFAC /* SSAlertContainerView.m */,
+				D4F0586825402B480010AFAC /* SSAlertControl.h */,
+				D4F0586F25402B480010AFAC /* SSAlertControl.m */,
+				D4F0586425402B480010AFAC /* SSAlertElement.h */,
+				D4F0586A25402B480010AFAC /* SSAlertElement.m */,
+				D4F0586325402B480010AFAC /* SSAlertElementProtocol.h */,
+				D4F0587025402B480010AFAC /* SSAlertGlobalTask.h */,
+				D4F0586125402B480010AFAC /* SSAlertGlobalTask.m */,
+				D4F0586925402B480010AFAC /* SSAlertHands.h */,
+				D4F0586625402B480010AFAC /* SSAlertHands.m */,
+				D4F0587125402B480010AFAC /* SSAlertLabel.h */,
+				D4F0586725402B480010AFAC /* SSAlertLabel.m */,
+				D4F0586225402B480010AFAC /* SSAlertMacros.h */,
+				D4F0586D25402B480010AFAC /* SSAlertSpecialCareLabel.h */,
+				D4F0586525402B480010AFAC /* SSAlertSpecialCareLabel.m */,
+				D4F0586E25402B480010AFAC /* SSAlertViewControlProtocol.h */,
+				D4F0584725402B070010AFAC /* AppDelegate.h */,
+				D4F0584825402B070010AFAC /* AppDelegate.m */,
+				D4F0584A25402B070010AFAC /* SceneDelegate.h */,
+				D4F0584B25402B070010AFAC /* SceneDelegate.m */,
+				D4F0584D25402B070010AFAC /* ViewController.h */,
+				D4F0584E25402B080010AFAC /* ViewController.m */,
+				D4F0585025402B080010AFAC /* Main.storyboard */,
+				D4F0585325402B090010AFAC /* Assets.xcassets */,
+				D4F0585525402B090010AFAC /* LaunchScreen.storyboard */,
+				D4F0585825402B090010AFAC /* Info.plist */,
+				D4F0585925402B090010AFAC /* main.m */,
+			);
+			path = SSAlertKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4F0584325402B070010AFAC /* SSAlertKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4F0585D25402B090010AFAC /* Build configuration list for PBXNativeTarget "SSAlertKit" */;
+			buildPhases = (
+				D4F0584025402B070010AFAC /* Sources */,
+				D4F0584125402B070010AFAC /* Frameworks */,
+				D4F0584225402B070010AFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSAlertKit;
+			productName = SSAlertKit;
+			productReference = D4F0584425402B070010AFAC /* SSAlertKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4F0583C25402B070010AFAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D4F0584325402B070010AFAC = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = D4F0583F25402B070010AFAC /* Build configuration list for PBXProject "SSAlertKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4F0583B25402B070010AFAC;
+			productRefGroup = D4F0584525402B070010AFAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4F0584325402B070010AFAC /* SSAlertKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4F0584225402B070010AFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F0585725402B090010AFAC /* LaunchScreen.storyboard in Resources */,
+				D4F0585425402B090010AFAC /* Assets.xcassets in Resources */,
+				D4F0585225402B080010AFAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4F0584025402B070010AFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F0587325402B480010AFAC /* SSAlertSpecialCareLabel.m in Sources */,
+				D4F0587825402B480010AFAC /* SSAlertControl.m in Sources */,
+				D4F0584F25402B080010AFAC /* ViewController.m in Sources */,
+				D4F0584925402B070010AFAC /* AppDelegate.m in Sources */,
+				D4F0587525402B480010AFAC /* SSAlertLabel.m in Sources */,
+				D4F0585A25402B090010AFAC /* main.m in Sources */,
+				D4F0584C25402B070010AFAC /* SceneDelegate.m in Sources */,
+				D4F0587625402B480010AFAC /* SSAlertElement.m in Sources */,
+				D4F0587425402B480010AFAC /* SSAlertHands.m in Sources */,
+				D4F0587225402B480010AFAC /* SSAlertGlobalTask.m in Sources */,
+				D4F0587725402B480010AFAC /* SSAlertContainerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4F0585025402B080010AFAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4F0585125402B080010AFAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4F0585525402B090010AFAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4F0585625402B090010AFAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4F0585B25402B090010AFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4F0585C25402B090010AFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4F0585E25402B090010AFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSAlertKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soul.ss.SSAlertKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4F0585F25402B090010AFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSAlertKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soul.ss.SSAlertKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4F0583F25402B070010AFAC /* Build configuration list for PBXProject "SSAlertKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4F0585B25402B090010AFAC /* Debug */,
+				D4F0585C25402B090010AFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4F0585D25402B090010AFAC /* Build configuration list for PBXNativeTarget "SSAlertKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4F0585E25402B090010AFAC /* Debug */,
+				D4F0585F25402B090010AFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4F0583C25402B070010AFAC /* Project object */;
+}
